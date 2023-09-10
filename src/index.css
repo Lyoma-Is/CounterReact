@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  list-style: none;
+  
+}
+.menu a{
+  text-decoration: none;
+  color: #393939;
+  font-family: 'Aleo', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main{
+  margin: 0 auto;
+}
+
+.main-number{
+  color: #393939;
+  text-align: center;
+  font-family: 'Aleo',sans-serif;
+  font-size: 288px;
+  font-weight: 700;
+  margin: 70px;
+}
+.main-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 150px;
+}
+.btn-plus, .btn-minus, .btn-refesh{
+  width: 56px;
+  height: 58px;
+  border-radius: 27px;
+  background: #0FC50B;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Aleo', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.btn-minus{
+  background: #F64C4C;
+}
+.btn-refesh{
+  background: #E5E5E5;
+  text-align: center;
+}
+.footer{
+  margin-top: 265px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.footer_menu a{
+  color: rgba(0, 0, 0, 0.50);
+  font-family: 'Aleo', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.f-copy{
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.50);
+  font-family: 'Aleo',sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+
+}
